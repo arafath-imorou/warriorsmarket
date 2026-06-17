@@ -193,19 +193,18 @@ Merci de me confirmer la disponibilité et la livraison !`;
               
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mt-2">
                 <Link
+                  href="/about"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-white border-2 border-primary/20 px-8 py-4 text-base font-bold text-slate-dark shadow-md hover:bg-cream-dark/50 hover:border-primary/40 hover:-translate-y-0.5 hover:scale-[1.01] active:translate-y-0 transition-all duration-300"
+                >
+                  <Users className="h-5 w-5 text-primary" />
+                  <span>Qui sommes-nous ?</span>
+                </Link>
+                <Link
                   href="#categories"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-8 py-4 text-base font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary-dark hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 hover:scale-[1.01] active:translate-y-0 transition-all duration-300"
                 >
-                  <span>Commander maintenant</span>
+                  <span>Commandez maintenant</span>
                   <ArrowRight className="h-5 w-5" />
-                </Link>
-                <Link
-                  href="https://wa.me/2290153302051?text=Bonjour%20Warriors%20Market%20!%20Je%20souhaite%20passer%20une%20commande."
-                  target="_blank"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-8 py-4 text-base font-bold text-white shadow-lg shadow-green-500/20 hover:bg-[#22c35e] hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 hover:scale-[1.01] active:translate-y-0 transition-all duration-300"
-                >
-                  <MessageCircle className="h-5 w-5 fill-current" />
-                  <span>Commander via WhatsApp</span>
                 </Link>
               </div>
 
