@@ -201,7 +201,7 @@ Merci de me confirmer la disponibilité et la livraison !`;
             alt={category.name}
             fill
             priority
-            className="object-cover object-center"
+            className="object-cover object-center opacity-20"
           />
         )}
         
