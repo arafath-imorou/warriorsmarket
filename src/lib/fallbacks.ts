@@ -175,7 +175,7 @@ export const FALLBACK_PRODUCTS: Record<string, FallbackProduct[]> = {
       description: 'Clous de girofle entiers ou moulus pour parfumer vos thés, bouillies et plats.',
       price: 1000,
       unit: 'format',
-      image_url: 'https://images.unsplash.com/photo-1609144883398-356a6552a4ea?auto=format&fit=crop&q=80&w=600',
+      image_url: '/images-articles/clou-de-girofle.png',
       is_featured: false,
       formats: [
         { name: '250g', price: 1000 },
