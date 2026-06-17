@@ -18,13 +18,13 @@ export default function AboutPage() {
     <div className="w-full bg-cream pb-24">
       {/* 1. Header Banner */}
       <div className="relative bg-slate-dark text-white py-20 md:py-28 overflow-hidden border-b-4 border-accent">
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-dark/95 to-slate-dark/40 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-dark/90 via-slate-dark/70 to-slate-dark/30 z-10"></div>
         <Image
           src="/backgrounds/about.png"
           alt="À propos de Warriors Market"
           fill
           priority
-          className="object-cover object-center opacity-20"
+          className="object-cover object-center opacity-45 z-0"
         />
         
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-20 flex flex-col gap-6">

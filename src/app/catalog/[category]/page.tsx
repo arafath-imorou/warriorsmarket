@@ -192,16 +192,15 @@ Merci de me confirmer la disponibilité et la livraison !`;
           }}
         />
       ))}
-      {/* 1. Header Banner */}
       <div className="relative bg-slate-dark text-white py-16 md:py-24 overflow-hidden border-b-4 border-accent">
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-dark/95 to-slate-dark/40 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-dark/90 via-slate-dark/70 to-slate-dark/30 z-10"></div>
         {category.image_url && (
           <Image
             src={category.image_url}
             alt={category.name}
             fill
             priority
-            className="object-cover object-center opacity-20"
+            className="object-cover object-center opacity-45 z-0"
           />
         )}
         
